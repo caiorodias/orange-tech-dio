@@ -28,5 +28,7 @@ function compararPessoas(p1, p2) {
 const caio = new Pessoa('Caio', 26)
 const raquel = new Pessoa('Raquel', 23)
 
+caio.descrever()
+
 compararPessoas(caio, raquel)
 
